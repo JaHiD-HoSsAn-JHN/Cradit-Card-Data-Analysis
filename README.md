@@ -56,19 +56,19 @@ previous_week_ = CALCULATE(
 )
 # 08:
 Filters = 
-VAR marital_status_top = RANKX(ALL('craditcard customer_data'[marital_status]), [Total_Revenue])  // Defaults to descending order
+VAR marital_status_top = RANKX(ALL('craditcard customer_data'[marital_status]), [Total_Revenue])  
 VAR marital_status_bottom = RANKX(ALL('craditcard customer_data'[marital_status]), [Total_Revenue], , ASC)
 
-VAR customer_job_top = RANKX(ALL('craditcard customer_data'[customer_job]), [Total_Revenue])  // Defaults to descending order
+VAR customer_job_top = RANKX(ALL('craditcard customer_data'[customer_job]), [Total_Revenue])
 VAR customer_job_bottom = RANKX(ALL('craditcard customer_data'[customer_job]), [Total_Revenue], , ASC)
 
-VAR state_top = RANKX(ALL('craditcard customer_data'[state_cd]), [Total_Revenue])  // Defaults to descending order
+VAR state_top = RANKX(ALL('craditcard customer_data'[state_cd]), [Total_Revenue])
 VAR state_bottom = RANKX(ALL('craditcard customer_data'[state_cd]), [Total_Revenue], , ASC)
 
-VAR income_group_top = RANKX(ALL('craditcard customer_data'[Income_Group]), [Total_Revenue])  // Defaults to descending order
+VAR income_group_top = RANKX(ALL('craditcard customer_data'[Income_Group]), [Total_Revenue])
 VAR income_group_bottom = RANKX(ALL('craditcard customer_data'[Income_Group]), [Total_Revenue], , ASC)
 
-VAR education_top = RANKX(ALL('craditcard customer_data'[education_level]), [Total_Revenue])  // Defaults to descending order
+VAR education_top = RANKX(ALL('craditcard customer_data'[education_level]), [Total_Revenue])
 VAR education_bottom = RANKX(ALL('craditcard customer_data'[education_level]), [Total_Revenue], , ASC)
 
 VAR _CheckRank = 
