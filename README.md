@@ -1,1 +1,1 @@
-# Cradit Card Data Analysis Using PowerBI And PostgreSQL Database
+# Cradit Card Transaction and Customer Dynamic & Interactive Dashboard Using PowerBI And data input from PostgreSQL Database
