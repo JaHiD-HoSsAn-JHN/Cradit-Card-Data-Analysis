@@ -1,1 +1,1 @@
-# Cradit Card Data Analysis Using PowerBI PostgreSQL Database
+# Cradit Card Data Analysis Using PowerBI And PostgreSQL Database
